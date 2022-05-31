@@ -1,6 +1,35 @@
 body{
     background-color:rgb(94, 193, 210);
 }
-header{
-    background-color:rgb(242, 245, 245);
+.hola{
+  background-color:whitesmoke;
+}
+.imagene{
+    width: 600px;
+    height: 500px;
+    margin:0px auto;
+    margin:15px;
+
+}
+.carousel-item{
+    width: 600px;
+    height: 500px;
+
+
+
+  
+}
+.carousel-inner{
+    width: 600px;
+    height: 500px;
+    margin:0px auto;
+    
+    
+
+}
+.carousel{
+    width: 600px;
+    height: 500px;
+    margin:0px auto;
+   
 }

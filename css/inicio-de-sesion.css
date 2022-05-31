@@ -26,5 +26,12 @@ form {
 body{
 background-image:url("https://www.teahub.io/photos/full/99-994473_fondos-para-paginas-web.jpg");
 background-size:cover;
+background-repeat:no-repeat;
+
+background-attachment: fixed;
+
+ }
+ .dropdown-item{
+   margin-bottom: 20px;
 
  }

@@ -16,22 +16,32 @@ img{
     border-radius: 50%;
     display: block;
     margin: 0px auto;
-    width: 25%;
-    height:25%;
+    width: 30%;
+    height:30%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
       }
 form {
         width: 100%;
         max-width: 600px;
-        margin: 0 auto;
+        margin: auto;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         
       }
-#logo-principal{
-    width: 200px;
-    height: 200px;
-    float:left;
-}
 
+header{
+    background-size:cover;
+border-width: 0px;
+}
+.carousel-item{
+    width:100%;
+    height:20%;
+}
+.carousel-inner{
+    width: 100%;
+    height: 20%;
+}
