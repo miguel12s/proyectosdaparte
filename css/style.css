@@ -1,24 +1,23 @@
 body{
     background-color:rgb(94, 193, 210);
+    box-sizing: border-box;
 }
 .hola{
   background-color:whitesmoke;
 }
 
 img{
- 
+ width:100%;
 }
 .slide{
     margin-top:10px;
 }
-.slide img{
+
+.carousel-inner{
+    position:relative
 
 }
-.carousel-inner{
-    width: 100%;
-    height: 100%;
+.carousel-indicator{
+    text-align: center;
     margin:0 auto;
 }
-.carousel-item{
-    margin:0 auto;
-} 
