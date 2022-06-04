@@ -7,17 +7,25 @@ body{
 }
 
 img{
- width:100%;
+    width: 90%;
+    height: auto;
+ margin:0 auto;
 }
 .slide{
     margin-top:10px;
 }
 
 .carousel-inner{
-    position:relative
-
-}
+    position:relative;
+    margin:0 auto;
+    
+   
+} 
 .carousel-indicator{
     text-align: center;
-    margin:0 auto;
+    margin:auto;
+}
+.carousel-item{
+  height: 90%;
+
 }
