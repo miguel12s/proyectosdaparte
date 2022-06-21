@@ -13,30 +13,38 @@
 </head>
 
 <body>
-  <img src="img/myaccount.png" alt="imagen de registro persona">
-  <form class="px-4 py-3">
-    <div class="mb-3">
-      <label for="exampleDropdownFormEmail1" class="form-label" >correo</label>
-      <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+  <nav class="navbar ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img id="imagen-back"
+          src="img/png-transparent-white-house-logo-computer-icons-home-house-home-blue-angle-text-thumbnail-removebg-preview (1).png"
+          alt="" class="d-inline-block align-text-top">
+      </a>
     </div>
-    <div class="mb-3">
-      <label for="exampleDropdownFormPassword1" class="form-label" id="pass-admin">contraseña</label>
-      <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
-    </div>
-    <div class="mb-3">
-      <br>
-    <a style="text-align: center;"class="dropdown-item" href="#">olvidaste la cotraseña?</a>
+  </nav>
+</header>
+<div class="container">
+  <div id="imagen-registro">
+    <img src="img/myaccount.png" alt="imagen de registro persona">
   </div>
-        
+
+  <form class="px-4 py-3">
+    <div class="mb-3 ">
+      <div class="mb-3 ">
+        <label for="exampleDropdownFormEmail1" class="form-label">correo</label>
+        <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="Miguel@example.com">
+      </div>
+      <div class="mb-3 ">
+        <label for="exampleDropdownFormPassword1" class="form-label">Contraseña</label>
+        <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
       </div>
     </div>
-    <button type="submit" class="btn btn-primary" onclick="funcion()">Sign in</button>
+    <button type="submit" class="btn btn-primary" onclick="funcion()">Registarse</button>
+
   </form>
-  
+</div>
+  <script src="js/admin.js"></script>
 
-
-
-<script src="js/admin.js"></script>
 </body>
 
 </html>

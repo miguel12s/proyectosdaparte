@@ -1,27 +1,19 @@
-.contenedor-form {
-    background-color: aqua;
-    margin: 0px auto;
 
-}
-
-body {
-    background-color: rgb(27, 184, 176);
-}
 
 body {
     background: #7F7FD5;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-   
 
 }
+
 
 img {
     border-radius: 50%;
     display: block;
     margin: 0px auto;
     width: 30%;
-    height: 30%;
+    height: 15%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -30,15 +22,26 @@ img {
 form {
     width: 100%;
     max-width: 600px;
-    margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
 }
-
+#img-id{
+    width: 25%;
+    height: 20%;
+}
 header {
     background-size: cover;
     border-width: 0px;
+
+     background-color:transparent;
 }
+.img_hola{
+width:30%;
+height: 20%;
+}
+

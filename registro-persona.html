@@ -16,42 +16,51 @@
 
 <body>
   <header>
-    
     <nav class="navbar ">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
-          <img src="img/png-transparent-white-house-logo-computer-icons-home-house-home-blue-angle-text-thumbnail-removebg-preview (1).png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+          <img
+            src="img/png-transparent-white-house-logo-computer-icons-home-house-home-blue-angle-text-thumbnail-removebg-preview (1).png"
+            alt=""  id="img-id"class=" img_hola d-inline-block align-text-top">
         </a>
       </div>
     </nav>
   </header>
- <div id="imagen-registro">
-    <img src="img/myaccount.png" alt="imagen de registro persona">
- </div>
-  <form class="px-4 py-3">
-    <div class="mb-3 ">
-      <label for="exampleDropdownFormName" class="form-label">Nombres</label>
-      <input type="text" class="form-control" id="exampleDropdownFormName" placeholder="Nombres">
-    </div>
-    <div class="mb-3 ">
-      <label for="exampleDropdownFormApellidos" class="form-label">Apellidos</label>
-      <input type="text" class="form-control" id="exampleDropdownFormApellidos" placeholder="Apellidos">
-    </div>
-    <div class="mb-3 ">
-      <label for="exampleDropdownFormTelefono" class="form-label">telefono</label>
-      <input type="text" class="form-control" id="exampleDropdownFormTelefono" placeholder="Numero De Telefono">
-    </div>
-    <div class="mb-3 ">
-      <label for="exampleDropdownFormEmail1" class="form-label">correo</label>
-      <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="Miguel@example.com">
-    </div>
-    <div class="mb-3 ">
-      <label for="exampleDropdownFormPassword1" class="form-label">Contraseña</label>
-      <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+  <div class="contenedor">
+    <div id="imagen-registro">
+      <img src="img/myaccount.png" alt="imagen de registro persona">
     </div>
 
-    <button type="submit" class="btn btn-primary"onclick="comprobar()">Registarse</button>
-  </form>
+   
+      <form class="px-4 py-3">
+        <div class="mb-3 ">
+          <label for="exampleDropdownFormName" class="form-label">Nombres</label>
+          <input type="text" class="form-control" id="exampleDropdownFormName" placeholder="Nombres">
+        </div>
+        <div class="mb-3 ">
+          <label for="exampleDropdownFormApellidos" class="form-label">Apellidos</label>
+          <input type="text" class="form-control" id="exampleDropdownFormApellidos" placeholder="Apellidos">
+        </div>
+        <div class="mb-3 ">
+          <label for="exampleDropdownFormTelefono" class="form-label">telefono</label>
+          <input type="text" class="form-control" id="exampleDropdownFormTelefono" placeholder="Numero De Telefono">
+        </div>
+        <div class="mb-3 ">
+          <label for="exampleDropdownFormEmail1" class="form-label">correo</label>
+          <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="Miguel@example.com">
+        </div>
+        <div class="mb-3 ">
+          <label for="exampleDropdownFormPassword1" class="form-label">Contraseña</label>
+          <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
+        </div>
+
+        <button type="submit" class="btn btn-primary" onclick="comprobar()">Registarse</button>
+      </form>
+      
+
+    </div>
+  </div>
+ 
   <script src="js/registropersona.js"></script>
 </body>
 
