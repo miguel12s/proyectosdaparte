@@ -1,5 +1,6 @@
 
 
+
 body {
     background: #7F7FD5;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
@@ -9,30 +10,27 @@ body {
 
 
 img {
-    border-radius: 50%;
+    
     display: block;
     margin: 0px auto;
-    width: 30%;
-    height: 15%;
+    width: 80%;
+    height: 50%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
 form {
-    width: 100%;
+    width: auto;
     max-width: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: auto;
-    margin-right: auto;
-    background-color:transparent;
+    background-color:white;
     margin:0 auto;
-     height: 70%;
-      width: 70%;
-      border: 2px solid black;
+     height: 100%;
+      border: 3px solid rgb(142, 177, 182); 
 }
 
 
@@ -43,11 +41,16 @@ header {
      background-color:transparent;
 }
 .img_hola{
-width:30%;
-height: 20%;
+border-radius: 50%;
+width:6rem;
+height: 6rem;
+}
+nav{
+    background-color:white;
+    border: 3px solid rgb(142, 177, 182);
 }
 .contenedor{
-    background-color:transparent;
+    margin: 100px;
    margin:0 auto;
     height: 70%;
      width: 70%;
