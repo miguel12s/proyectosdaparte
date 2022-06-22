@@ -25,6 +25,7 @@ let comprobar=()=>{
     let a = document.getElementById("exampleDropdownFormEmail1").value
     let b = document.getElementById("exampleDropdownFormPassword1").value
     if (a =="" || b=="" ){
-alert("los datos estan vacio")
-    }
+alert("Asegurese de llenar todos los campos")
+
+}
 }
