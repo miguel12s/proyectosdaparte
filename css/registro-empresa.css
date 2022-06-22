@@ -39,21 +39,21 @@ form {
         margin-right: auto;
         background-color:transparent;
         margin:0 auto;
-        height: 95%;
-        width: 95%;
-        border: 3px solid rgb(142, 177, 182); 
+         height: 70%;
+          width: 70%;
+          border: 2px solid black;
     
 
 
 }
 
 header {
-    background-color:white;
-    border: 3px solid rgb(142, 177, 182);
+    background-size: cover;
+    border-width: 0px;
 }
 .container{
-    background-color:white;
+    background-color:transparent;
     margin:0 auto;
-    height: 58%;
-    width: 40%;
+     height: 70%;
+      width: 70%;
 }
