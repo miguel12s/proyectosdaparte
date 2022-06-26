@@ -35,11 +35,13 @@ form {
   
     }
 body{
+  margin:0 auto;
   background: #7F7FD5;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
    background-size:cover;
-
+    align-items: center;
+    justify-content: center;
 
 
 background-attachment: fixed;
@@ -53,13 +55,18 @@ background-attachment: fixed;
  
 }
 .container{
-  display: flex;
-  flex-direction: column;
-  margin: 100px;
   margin:0 auto;
-   height: 80%;
-    width: 100%;
+  height: 70%;
+   width: 70%;
+   margin-top: 2%;
+   margin-bottom: 2%;
+
 }
 .img-reg{
-  margin-bottom:  2%;
+  width: 25%;
+    height:25%;
 }
+
+
+
+

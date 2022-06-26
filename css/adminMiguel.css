@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:aqua;
+    color:black;
+}
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    margin:20px auto;
+    display:grid;
+    grid-gap: 50px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: (4,auto);
+    grid-template-areas: "header  header header header"
+    "img  contenido contenido contenido"
+    "contenido hojadevida hojadevida hojadevida";
+
+}
+img{
+    width:70%;
+    height: 70%;
+}
+.header{
+    grid-area:header;
+}
+.contenido{
+ grid-gap: 50px;
+    padding:20px;
+    grid-area:contenido
+}
+.contenido2{
+    padding: 20px;
+    background-color: red;
+}
+.hojadevida{
+
+    background-color: brown;
+}

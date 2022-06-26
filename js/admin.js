@@ -4,28 +4,36 @@
 
 
 let funcion = () => {
-      comprobar()
-    let username = document.getElementById("exampleDropdownFormEmail1").value
-    let password = document.getElementById("exampleDropdownFormPassword1").value
-    password = parseInt(password)
-    us = "miguelangelsuarezplata480@gmail.com"
-    cont = 123456
-    us2 = "ragox@outlook.es"
-    cont2 = 789101112
-    if (username == us && password == cont) {
+      var username,password
+    username = document.getElementById("exampleDropdownFormEmail1").value
+     password = document.getElementById("exampleDropdownFormPassword1").value
+    if (username =="Miguel@tugato.com" && password == "1234") {
         alert("bienvenido Miguel")
+        window.location="adminMiguel.html"
     }else{
-        if (password==cont2 && username==us2 ) {
-            alert("bienvenido harry")
-        }
+            if(username=="Harry@tugato.com"&& password=="5678"){
+                alert("bienvenido harry")
+                window.location="AdminHarry.html"
+            }
     }
 
 }
 let comprobar=()=>{
     let a = document.getElementById("exampleDropdownFormEmail1").value
     let b = document.getElementById("exampleDropdownFormPassword1").value
-    if (a =="" || b=="" ){
+    if (a ==""||b=="" ){
 alert("Asegurese de llenar todos los campos")
 
 }
 }
+function redirharry(){
+    
+    location.href=("AdminHarry.html")
+    
+
+}
+  
+
+
+
+
