@@ -96,5 +96,19 @@ footer{
     clear: both;
     width: 125.02%;
 }
+.lateral{
+    height: auto;
+    background-color: white;
+    text-align: center;
+    width: 20%;
+    float: left;
 
-
+}
+.card{
+    height: 60%;
+    width: 90%;
+}
+.card-img-top{
+    height: 50%;
+    width: 70%;
+}

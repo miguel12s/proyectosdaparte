@@ -1,0 +1,73 @@
+body{
+    background: #7F7FD5;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     background-size:cover;
+}
+.nav{
+   
+    background-color: white;
+}
+.contenedor{
+    margin-left: 15%;
+    margin-right: 15%;
+    
+    
+}
+.foto{
+    background-color: brown;
+    border: 3px solid black;
+    width: 14%;
+    height: 14%;
+    float: left;
+    margin-left: 3%;
+    margin-top: 3%;
+    
+}
+.ftperfil{
+    width: 100%;
+    height: 100%;
+    
+}
+.infpersonal{
+    background-color: brown;
+    border: 2px solid black;
+    margin-top: 5%;
+    
+    width: 60%;
+    float:right;
+    margin-right: 17%;
+    
+     
+}
+.info{
+    background-color: brown;
+    border: 2px solid black;
+    float:left;
+    width: 20%;
+    height: 60%;
+    clear: both;
+    margin-top: 4%;
+}
+.hojadvida{
+    background-color: brown;
+    border: 2px solid black;
+    width: 70%;
+    height: 70%;
+    float:right;
+    margin-right: 5%;
+    margin-top: 4%;
+}
+.fthdv{
+    width: 100%;
+    height: 100%;
+}
+.descargar{
+    background-color: brown;
+    border: 2px solid black;
+}
+.btndescargar{
+    margin-left: 40%;
+   
+}
+

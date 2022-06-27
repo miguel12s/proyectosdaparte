@@ -16,7 +16,7 @@ body{
     max-width: 1000px;
     margin:20PX AUTO;
     display:grid;
-    grid-gap: 20px;
+    grid-gap: 15px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: (4,auto);
     grid-template-areas: "header  header header"
@@ -51,11 +51,7 @@ grid-area:header;
 }
 .sidebar{
     grid-column: 3/4;
-background:#faa43d;
-text-align: center;
-display: flex;
-align-items: center;
-justify-content: center;
+background:#7F7FD5;
 grid-area:sidebar;
 }
 .widget-1{
@@ -74,8 +70,8 @@ grid-area:sidebar;
 @media screen and (max-width:768px){
     .contenedor{
         grid-template-areas: "header  header header"
-        "contenido contenido contenido"
-        "sidebar sidebar sidebar"
+        "contenido contenido sidebar"
+        "contenido contenido sidebar"
         "widget-1 widget-1 widget-2 "
         "footer footer footer";
     }

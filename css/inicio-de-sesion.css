@@ -7,16 +7,16 @@
 img{
   display: block;
   margin: 0px auto;
-  width: 30%;
+  width: 50%;
   height: 15%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
     }
     #imagen-back{
-      border-radius: 50%;
-width:6rem;
-height: 6rem;
+  border-radius: 50%;
+width:20%;
+height: 20%;
     }
 
 form {
@@ -63,9 +63,14 @@ background-attachment: fixed;
 
 }
 .img-reg{
-  width: 25%;
-    height:25%;
+  width: 30%;
+    height:30%;
 }
+#home{
+  width:12%;
+ height: 10%;
+ }
+
 
 
 

@@ -1,0 +1,33 @@
+body{
+    background-color: whitesmoke;
+}
+h1{
+    text-align: center;
+}
+form{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color:whitesmoke;
+    opacity: 1.5;
+}
+
+.contenedorform{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+background-color: white;
+opacity:0.9 ;
+}
+img{
+    
+   margin:20px;
+    justify-content: center;
+    
+}
+#sugerencias{
+   margin-top: 10%;
+   width: 70%;
+   height: 70%;
+}
